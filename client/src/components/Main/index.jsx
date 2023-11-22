@@ -59,7 +59,7 @@ export default function Index() {
                 className="btn btn-primary text-uppercase"
                 
               >
-                Login
+                Create My Resume
               </button> 
             </div>
             <img src="assets/images/dublin-resume-templates.avif" />
