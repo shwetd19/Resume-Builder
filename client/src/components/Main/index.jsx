@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import Desktop from '../Desktop2/Desktop';
 import { handleLogout } from "./temp";
 
@@ -85,12 +85,15 @@ export default function Index() {
                 trusted by millions of professionals.
               </p>
               <div className="btn-group">
-                <a
-                  href="resume.html"
-                  className="btn btn-primary text-uppercase"
-                >
-                  create my resume
-                </a>
+                <Link to="/creation">
+                  <a
+                    href="resume.html"
+                    className="btn btn-primary text-uppercase"
+                  >
+                    create my resume
+                  </a>
+                </Link>
+                
                 <a href="#" className="btn btn-secondary text-uppercase">
                   watch video
                 </a>
